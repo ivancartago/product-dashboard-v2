@@ -240,3 +240,24 @@ body {
 .insights-list li {
     margin-bottom: 0.25rem;
 }
+
+/* Legend for monthly all years view */
+.legend-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.color-box {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+}
